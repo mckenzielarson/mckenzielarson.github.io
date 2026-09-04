@@ -2599,9 +2599,6 @@ input, select, textarea {
 		}
 
 	
-		.image:hover img {
-		    transform: none !important;
-		}
 
 		.image.left, .image.right {
 			max-width: 40%;
@@ -3899,6 +3896,7 @@ input, select, textarea {
 				}
 
 			}
+
 
 			@media screen and (max-width: 736px) {
 
