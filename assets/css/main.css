@@ -2598,6 +2598,11 @@ input, select, textarea {
 			display: block;
 		}
 
+	
+		.image:hover img {
+		    transform: none !important;
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
@@ -4686,8 +4691,5 @@ input, select, textarea {
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
 		}
+	}
 
-	}
-	.image:hover img {
-	    transform: none !important;
-	}
