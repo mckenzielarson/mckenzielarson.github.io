@@ -4688,4 +4688,6 @@ input, select, textarea {
 		}
 
 	}
-
+	.image:hover img {
+	    transform: none !important;
+	}
