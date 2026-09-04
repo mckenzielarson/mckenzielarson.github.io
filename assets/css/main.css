@@ -4688,65 +4688,59 @@ input, select, textarea {
 		}
 
 	}
-/* Research Grid */
+/* Research project grid */
 
 .research-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
-    margin: 0 auto 4rem auto;
+    margin: 0 0 4rem 0;
 }
 
 .research-card {
-    text-align: center;
+    min-width: 0;
 }
 
 .research-card .image {
     display: block;
     margin-bottom: 1.5rem;
-    overflow: hidden;
 }
 
 .research-card .image img {
     width: 100%;
     height: 250px;
     object-fit: cover;
-    transition: transform 0.3s ease;
-}
-
-.research-card .image:hover img {
-    transform: scale(1.03);
 }
 
 .research-card h2 {
     font-size: 1.25rem;
+    line-height: 1.3;
     margin-bottom: 1rem;
 }
 
 .research-card p {
-    font-size: 0.9rem;
-    line-height: 1.7;
     margin-bottom: 1.5rem;
 }
 
-/* Tablet */
+
+/* Two columns on tablets */
 
 @media screen and (max-width: 980px) {
+
     .research-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
     }
+
 }
 
-/* Mobile */
+
+/* One column on phones */
 
 @media screen and (max-width: 736px) {
+
     .research-grid {
         grid-template-columns: 1fr;
-        gap: 3rem;
     }
 
-    .research-card .image img {
-        height: auto;
-    }
 }
+
